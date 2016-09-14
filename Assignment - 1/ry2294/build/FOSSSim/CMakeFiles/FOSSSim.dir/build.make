@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.4.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294"
+CMAKE_SOURCE_DIR = "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build"
+CMAKE_BINARY_DIR = "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build"
 
 # Include any dependencies generated for this target.
 include FOSSSim/CMakeFiles/FOSSSim.dir/depend.make
@@ -59,16 +59,16 @@ include FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 
 FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o: ../FOSSSim/ExplicitEuler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.cpp" > CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.cpp" > CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.cpp" -o CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.cpp" -o CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o.requires:
 
@@ -83,16 +83,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o.provides.build: FOSSSim/CMake
 
 FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o: ../FOSSSim/Force.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/Force.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/Force.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/Force.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.cpp" > CMakeFiles/FOSSSim.dir/Force.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.cpp" > CMakeFiles/FOSSSim.dir/Force.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/Force.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.cpp" -o CMakeFiles/FOSSSim.dir/Force.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.cpp" -o CMakeFiles/FOSSSim.dir/Force.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o.requires:
 
@@ -107,16 +107,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o.provides.build: FOSSSim/CMakeFiles/FO
 
 FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o: ../FOSSSim/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/main.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/main.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/main.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/main.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/main.cpp" > CMakeFiles/FOSSSim.dir/main.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/main.cpp" > CMakeFiles/FOSSSim.dir/main.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/main.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/main.cpp" -o CMakeFiles/FOSSSim.dir/main.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/main.cpp" -o CMakeFiles/FOSSSim.dir/main.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o.requires:
 
@@ -131,16 +131,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o.provides.build: FOSSSim/CMakeFiles/FOS
 
 FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o: ../FOSSSim/MathUtilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathUtilities.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathUtilities.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/MathUtilities.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathUtilities.cpp" > CMakeFiles/FOSSSim.dir/MathUtilities.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathUtilities.cpp" > CMakeFiles/FOSSSim.dir/MathUtilities.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/MathUtilities.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathUtilities.cpp" -o CMakeFiles/FOSSSim.dir/MathUtilities.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathUtilities.cpp" -o CMakeFiles/FOSSSim.dir/MathUtilities.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o.requires:
 
@@ -155,16 +155,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o.provides.build: FOSSSim/CMake
 
 FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o: ../FOSSSim/RenderingUtilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.cpp" > CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.cpp" > CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.cpp" -o CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.cpp" -o CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o.requires:
 
@@ -179,16 +179,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o.provides.build: FOSSSim/
 
 FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o: ../FOSSSim/SceneStepper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SceneStepper.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SceneStepper.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/SceneStepper.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SceneStepper.cpp" > CMakeFiles/FOSSSim.dir/SceneStepper.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SceneStepper.cpp" > CMakeFiles/FOSSSim.dir/SceneStepper.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/SceneStepper.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SceneStepper.cpp" -o CMakeFiles/FOSSSim.dir/SceneStepper.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SceneStepper.cpp" -o CMakeFiles/FOSSSim.dir/SceneStepper.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o.requires:
 
@@ -203,16 +203,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o.provides.build: FOSSSim/CMakeF
 
 FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o: ../FOSSSim/SimpleGravityForce.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.cpp" > CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.cpp" > CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.cpp" -o CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.cpp" -o CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o.requires:
 
@@ -227,16 +227,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o.provides.build: FOSSSim/
 
 FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o: ../FOSSSim/StringUtilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/StringUtilities.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.cpp" > CMakeFiles/FOSSSim.dir/StringUtilities.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.cpp" > CMakeFiles/FOSSSim.dir/StringUtilities.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/StringUtilities.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.cpp" -o CMakeFiles/FOSSSim.dir/StringUtilities.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.cpp" -o CMakeFiles/FOSSSim.dir/StringUtilities.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o.requires:
 
@@ -251,16 +251,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o.provides.build: FOSSSim/CMa
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o: ../FOSSSim/TimingUtilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TimingUtilities.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TimingUtilities.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TimingUtilities.cpp" > CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TimingUtilities.cpp" > CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TimingUtilities.cpp" -o CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TimingUtilities.cpp" -o CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o.requires:
 
@@ -275,16 +275,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o.provides.build: FOSSSim/CMa
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o: ../FOSSSim/TwoDimensionalDisplayController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.cpp" > CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.cpp" > CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.cpp" -o CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.cpp" -o CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o.requires:
 
@@ -299,16 +299,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o.provides.bu
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o: ../FOSSSim/TwoDScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/TwoDScene.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.cpp" > CMakeFiles/FOSSSim.dir/TwoDScene.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.cpp" > CMakeFiles/FOSSSim.dir/TwoDScene.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/TwoDScene.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.cpp" -o CMakeFiles/FOSSSim.dir/TwoDScene.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.cpp" -o CMakeFiles/FOSSSim.dir/TwoDScene.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o.requires:
 
@@ -323,16 +323,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o.provides.build: FOSSSim/CMakeFile
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o: ../FOSSSim/TwoDSceneRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.cpp" > CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.cpp" > CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.cpp" -o CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.cpp" -o CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o.requires:
 
@@ -347,16 +347,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o.provides.build: FOSSSim/C
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o: ../FOSSSim/TwoDSceneSerializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.cpp" > CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.cpp" > CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.cpp" -o CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.cpp" -o CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o.requires:
 
@@ -371,16 +371,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o.provides.build: FOSSSim
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o: ../FOSSSim/TwoDSceneXMLParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.cpp" > CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.cpp" > CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.cpp" -o CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.cpp" -o CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o.requires:
 
@@ -395,16 +395,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o.provides.build: FOSSSim/
 
 FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.o: FOSSSim/CMakeFiles/FOSSSim.dir/flags.make
 FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.o: ../FOSSSim/YImage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.o"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/YImage.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/YImage.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.o"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOSSSim.dir/YImage.cpp.o -c "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/YImage.cpp"
 
 FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOSSSim.dir/YImage.cpp.i"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/YImage.cpp" > CMakeFiles/FOSSSim.dir/YImage.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/YImage.cpp" > CMakeFiles/FOSSSim.dir/YImage.cpp.i
 
 FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOSSSim.dir/YImage.cpp.s"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/YImage.cpp" -o CMakeFiles/FOSSSim.dir/YImage.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/YImage.cpp" -o CMakeFiles/FOSSSim.dir/YImage.cpp.s
 
 FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.o.requires:
 
@@ -455,8 +455,8 @@ FOSSSim/FOSSSim: FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o
 FOSSSim/FOSSSim: FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.o
 FOSSSim/FOSSSim: FOSSSim/CMakeFiles/FOSSSim.dir/build.make
 FOSSSim/FOSSSim: FOSSSim/CMakeFiles/FOSSSim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable FOSSSim"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FOSSSim.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable FOSSSim"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FOSSSim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 FOSSSim/CMakeFiles/FOSSSim.dir/build: FOSSSim/FOSSSim
@@ -482,10 +482,10 @@ FOSSSim/CMakeFiles/FOSSSim.dir/requires: FOSSSim/CMakeFiles/FOSSSim.dir/YImage.c
 .PHONY : FOSSSim/CMakeFiles/FOSSSim.dir/requires
 
 FOSSSim/CMakeFiles/FOSSSim.dir/clean:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" && $(CMAKE_COMMAND) -P CMakeFiles/FOSSSim.dir/cmake_clean.cmake
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" && $(CMAKE_COMMAND) -P CMakeFiles/FOSSSim.dir/cmake_clean.cmake
 .PHONY : FOSSSim/CMakeFiles/FOSSSim.dir/clean
 
 FOSSSim/CMakeFiles/FOSSSim.dir/depend:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294" "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim" "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim" "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim/CMakeFiles/FOSSSim.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294" "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim" "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim" "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim/CMakeFiles/FOSSSim.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : FOSSSim/CMakeFiles/FOSSSim.dir/depend
 

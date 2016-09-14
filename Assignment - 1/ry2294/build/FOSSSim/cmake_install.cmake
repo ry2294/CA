@@ -1,8 +1,8 @@
-# Install script for directory: /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim
+# Install script for directory: /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/install")
+  set(CMAKE_INSTALL_PREFIX "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -28,7 +28,7 @@ if(NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim/FOSSSim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim/FOSSSim")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/FOSSSim" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/FOSSSim")
     if(CMAKE_INSTALL_DO_STRIP)

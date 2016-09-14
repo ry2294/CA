@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.4.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294"
+CMAKE_SOURCE_DIR = "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build"
+CMAKE_BINARY_DIR = "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/FOSSSim/CMakeFiles/progress.marks"
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build/CMakeFiles" 0
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/FOSSSim/CMakeFiles/progress.marks"
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/clean
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/preinstall
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/preinstall
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 FOSSSim/CMakeFiles/FOSSSim.dir/rule:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/CMakeFiles/FOSSSim.dir/rule
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f CMakeFiles/Makefile2 FOSSSim/CMakeFiles/FOSSSim.dir/rule
 .PHONY : FOSSSim/CMakeFiles/FOSSSim.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ FOSSSim: FOSSSim/CMakeFiles/FOSSSim.dir/rule
 
 # fast build rule for target.
 FOSSSim/fast:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/build
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/build
 .PHONY : FOSSSim/fast
 
 ExplicitEuler.o: ExplicitEuler.cpp.o
@@ -175,7 +175,7 @@ ExplicitEuler.o: ExplicitEuler.cpp.o
 
 # target to build an object file
 ExplicitEuler.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o
 .PHONY : ExplicitEuler.cpp.o
 
 ExplicitEuler.i: ExplicitEuler.cpp.i
@@ -184,7 +184,7 @@ ExplicitEuler.i: ExplicitEuler.cpp.i
 
 # target to preprocess a source file
 ExplicitEuler.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.i
 .PHONY : ExplicitEuler.cpp.i
 
 ExplicitEuler.s: ExplicitEuler.cpp.s
@@ -193,7 +193,7 @@ ExplicitEuler.s: ExplicitEuler.cpp.s
 
 # target to generate assembly for a file
 ExplicitEuler.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.s
 .PHONY : ExplicitEuler.cpp.s
 
 Force.o: Force.cpp.o
@@ -202,7 +202,7 @@ Force.o: Force.cpp.o
 
 # target to build an object file
 Force.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o
 .PHONY : Force.cpp.o
 
 Force.i: Force.cpp.i
@@ -211,7 +211,7 @@ Force.i: Force.cpp.i
 
 # target to preprocess a source file
 Force.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.i
 .PHONY : Force.cpp.i
 
 Force.s: Force.cpp.s
@@ -220,7 +220,7 @@ Force.s: Force.cpp.s
 
 # target to generate assembly for a file
 Force.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.s
 .PHONY : Force.cpp.s
 
 MathUtilities.o: MathUtilities.cpp.o
@@ -229,7 +229,7 @@ MathUtilities.o: MathUtilities.cpp.o
 
 # target to build an object file
 MathUtilities.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o
 .PHONY : MathUtilities.cpp.o
 
 MathUtilities.i: MathUtilities.cpp.i
@@ -238,7 +238,7 @@ MathUtilities.i: MathUtilities.cpp.i
 
 # target to preprocess a source file
 MathUtilities.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.i
 .PHONY : MathUtilities.cpp.i
 
 MathUtilities.s: MathUtilities.cpp.s
@@ -247,7 +247,7 @@ MathUtilities.s: MathUtilities.cpp.s
 
 # target to generate assembly for a file
 MathUtilities.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.s
 .PHONY : MathUtilities.cpp.s
 
 RenderingUtilities.o: RenderingUtilities.cpp.o
@@ -256,7 +256,7 @@ RenderingUtilities.o: RenderingUtilities.cpp.o
 
 # target to build an object file
 RenderingUtilities.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o
 .PHONY : RenderingUtilities.cpp.o
 
 RenderingUtilities.i: RenderingUtilities.cpp.i
@@ -265,7 +265,7 @@ RenderingUtilities.i: RenderingUtilities.cpp.i
 
 # target to preprocess a source file
 RenderingUtilities.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.i
 .PHONY : RenderingUtilities.cpp.i
 
 RenderingUtilities.s: RenderingUtilities.cpp.s
@@ -274,7 +274,7 @@ RenderingUtilities.s: RenderingUtilities.cpp.s
 
 # target to generate assembly for a file
 RenderingUtilities.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.s
 .PHONY : RenderingUtilities.cpp.s
 
 SceneStepper.o: SceneStepper.cpp.o
@@ -283,7 +283,7 @@ SceneStepper.o: SceneStepper.cpp.o
 
 # target to build an object file
 SceneStepper.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o
 .PHONY : SceneStepper.cpp.o
 
 SceneStepper.i: SceneStepper.cpp.i
@@ -292,7 +292,7 @@ SceneStepper.i: SceneStepper.cpp.i
 
 # target to preprocess a source file
 SceneStepper.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.i
 .PHONY : SceneStepper.cpp.i
 
 SceneStepper.s: SceneStepper.cpp.s
@@ -301,7 +301,7 @@ SceneStepper.s: SceneStepper.cpp.s
 
 # target to generate assembly for a file
 SceneStepper.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.s
 .PHONY : SceneStepper.cpp.s
 
 SimpleGravityForce.o: SimpleGravityForce.cpp.o
@@ -310,7 +310,7 @@ SimpleGravityForce.o: SimpleGravityForce.cpp.o
 
 # target to build an object file
 SimpleGravityForce.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o
 .PHONY : SimpleGravityForce.cpp.o
 
 SimpleGravityForce.i: SimpleGravityForce.cpp.i
@@ -319,7 +319,7 @@ SimpleGravityForce.i: SimpleGravityForce.cpp.i
 
 # target to preprocess a source file
 SimpleGravityForce.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.i
 .PHONY : SimpleGravityForce.cpp.i
 
 SimpleGravityForce.s: SimpleGravityForce.cpp.s
@@ -328,7 +328,7 @@ SimpleGravityForce.s: SimpleGravityForce.cpp.s
 
 # target to generate assembly for a file
 SimpleGravityForce.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.s
 .PHONY : SimpleGravityForce.cpp.s
 
 StringUtilities.o: StringUtilities.cpp.o
@@ -337,7 +337,7 @@ StringUtilities.o: StringUtilities.cpp.o
 
 # target to build an object file
 StringUtilities.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o
 .PHONY : StringUtilities.cpp.o
 
 StringUtilities.i: StringUtilities.cpp.i
@@ -346,7 +346,7 @@ StringUtilities.i: StringUtilities.cpp.i
 
 # target to preprocess a source file
 StringUtilities.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.i
 .PHONY : StringUtilities.cpp.i
 
 StringUtilities.s: StringUtilities.cpp.s
@@ -355,7 +355,7 @@ StringUtilities.s: StringUtilities.cpp.s
 
 # target to generate assembly for a file
 StringUtilities.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.s
 .PHONY : StringUtilities.cpp.s
 
 TimingUtilities.o: TimingUtilities.cpp.o
@@ -364,7 +364,7 @@ TimingUtilities.o: TimingUtilities.cpp.o
 
 # target to build an object file
 TimingUtilities.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o
 .PHONY : TimingUtilities.cpp.o
 
 TimingUtilities.i: TimingUtilities.cpp.i
@@ -373,7 +373,7 @@ TimingUtilities.i: TimingUtilities.cpp.i
 
 # target to preprocess a source file
 TimingUtilities.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.i
 .PHONY : TimingUtilities.cpp.i
 
 TimingUtilities.s: TimingUtilities.cpp.s
@@ -382,7 +382,7 @@ TimingUtilities.s: TimingUtilities.cpp.s
 
 # target to generate assembly for a file
 TimingUtilities.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.s
 .PHONY : TimingUtilities.cpp.s
 
 TwoDScene.o: TwoDScene.cpp.o
@@ -391,7 +391,7 @@ TwoDScene.o: TwoDScene.cpp.o
 
 # target to build an object file
 TwoDScene.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o
 .PHONY : TwoDScene.cpp.o
 
 TwoDScene.i: TwoDScene.cpp.i
@@ -400,7 +400,7 @@ TwoDScene.i: TwoDScene.cpp.i
 
 # target to preprocess a source file
 TwoDScene.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.i
 .PHONY : TwoDScene.cpp.i
 
 TwoDScene.s: TwoDScene.cpp.s
@@ -409,7 +409,7 @@ TwoDScene.s: TwoDScene.cpp.s
 
 # target to generate assembly for a file
 TwoDScene.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.s
 .PHONY : TwoDScene.cpp.s
 
 TwoDSceneRenderer.o: TwoDSceneRenderer.cpp.o
@@ -418,7 +418,7 @@ TwoDSceneRenderer.o: TwoDSceneRenderer.cpp.o
 
 # target to build an object file
 TwoDSceneRenderer.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o
 .PHONY : TwoDSceneRenderer.cpp.o
 
 TwoDSceneRenderer.i: TwoDSceneRenderer.cpp.i
@@ -427,7 +427,7 @@ TwoDSceneRenderer.i: TwoDSceneRenderer.cpp.i
 
 # target to preprocess a source file
 TwoDSceneRenderer.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.i
 .PHONY : TwoDSceneRenderer.cpp.i
 
 TwoDSceneRenderer.s: TwoDSceneRenderer.cpp.s
@@ -436,7 +436,7 @@ TwoDSceneRenderer.s: TwoDSceneRenderer.cpp.s
 
 # target to generate assembly for a file
 TwoDSceneRenderer.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.s
 .PHONY : TwoDSceneRenderer.cpp.s
 
 TwoDSceneSerializer.o: TwoDSceneSerializer.cpp.o
@@ -445,7 +445,7 @@ TwoDSceneSerializer.o: TwoDSceneSerializer.cpp.o
 
 # target to build an object file
 TwoDSceneSerializer.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o
 .PHONY : TwoDSceneSerializer.cpp.o
 
 TwoDSceneSerializer.i: TwoDSceneSerializer.cpp.i
@@ -454,7 +454,7 @@ TwoDSceneSerializer.i: TwoDSceneSerializer.cpp.i
 
 # target to preprocess a source file
 TwoDSceneSerializer.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.i
 .PHONY : TwoDSceneSerializer.cpp.i
 
 TwoDSceneSerializer.s: TwoDSceneSerializer.cpp.s
@@ -463,7 +463,7 @@ TwoDSceneSerializer.s: TwoDSceneSerializer.cpp.s
 
 # target to generate assembly for a file
 TwoDSceneSerializer.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.s
 .PHONY : TwoDSceneSerializer.cpp.s
 
 TwoDSceneXMLParser.o: TwoDSceneXMLParser.cpp.o
@@ -472,7 +472,7 @@ TwoDSceneXMLParser.o: TwoDSceneXMLParser.cpp.o
 
 # target to build an object file
 TwoDSceneXMLParser.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o
 .PHONY : TwoDSceneXMLParser.cpp.o
 
 TwoDSceneXMLParser.i: TwoDSceneXMLParser.cpp.i
@@ -481,7 +481,7 @@ TwoDSceneXMLParser.i: TwoDSceneXMLParser.cpp.i
 
 # target to preprocess a source file
 TwoDSceneXMLParser.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.i
 .PHONY : TwoDSceneXMLParser.cpp.i
 
 TwoDSceneXMLParser.s: TwoDSceneXMLParser.cpp.s
@@ -490,7 +490,7 @@ TwoDSceneXMLParser.s: TwoDSceneXMLParser.cpp.s
 
 # target to generate assembly for a file
 TwoDSceneXMLParser.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.s
 .PHONY : TwoDSceneXMLParser.cpp.s
 
 TwoDimensionalDisplayController.o: TwoDimensionalDisplayController.cpp.o
@@ -499,7 +499,7 @@ TwoDimensionalDisplayController.o: TwoDimensionalDisplayController.cpp.o
 
 # target to build an object file
 TwoDimensionalDisplayController.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o
 .PHONY : TwoDimensionalDisplayController.cpp.o
 
 TwoDimensionalDisplayController.i: TwoDimensionalDisplayController.cpp.i
@@ -508,7 +508,7 @@ TwoDimensionalDisplayController.i: TwoDimensionalDisplayController.cpp.i
 
 # target to preprocess a source file
 TwoDimensionalDisplayController.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.i
 .PHONY : TwoDimensionalDisplayController.cpp.i
 
 TwoDimensionalDisplayController.s: TwoDimensionalDisplayController.cpp.s
@@ -517,7 +517,7 @@ TwoDimensionalDisplayController.s: TwoDimensionalDisplayController.cpp.s
 
 # target to generate assembly for a file
 TwoDimensionalDisplayController.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.s
 .PHONY : TwoDimensionalDisplayController.cpp.s
 
 YImage.o: YImage.cpp.o
@@ -526,7 +526,7 @@ YImage.o: YImage.cpp.o
 
 # target to build an object file
 YImage.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.o
 .PHONY : YImage.cpp.o
 
 YImage.i: YImage.cpp.i
@@ -535,7 +535,7 @@ YImage.i: YImage.cpp.i
 
 # target to preprocess a source file
 YImage.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.i
 .PHONY : YImage.cpp.i
 
 YImage.s: YImage.cpp.s
@@ -544,7 +544,7 @@ YImage.s: YImage.cpp.s
 
 # target to generate assembly for a file
 YImage.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.s
 .PHONY : YImage.cpp.s
 
 main.o: main.cpp.o
@@ -553,7 +553,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -562,7 +562,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.i
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -571,7 +571,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.s
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(MAKE) -f FOSSSim/CMakeFiles/FOSSSim.dir/build.make FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -643,6 +643,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

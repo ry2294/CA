@@ -104,12 +104,12 @@ FOSSSim/CMakeFiles/FOSSSim.dir/ExplicitEuler.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SceneStepper.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SceneStepper.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
 FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -213,9 +213,9 @@ FOSSSim/CMakeFiles/FOSSSim.dir/Force.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
 FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -319,9 +319,9 @@ FOSSSim/CMakeFiles/FOSSSim.dir/MathUtilities.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathUtilities.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathUtilities.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathUtilities.h
 FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -425,10 +425,10 @@ FOSSSim/CMakeFiles/FOSSSim.dir/RenderingUtilities.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
 FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -532,11 +532,11 @@ FOSSSim/CMakeFiles/FOSSSim.dir/SceneStepper.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SceneStepper.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SceneStepper.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SceneStepper.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SceneStepper.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
 FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -640,16 +640,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/SimpleGravityForce.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.h
 FOSSSim/CMakeFiles/FOSSSim.dir/StringUtilities.cpp.o
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
 FOSSSim/CMakeFiles/FOSSSim.dir/TimingUtilities.cpp.o
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TimingUtilities.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TimingUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TimingUtilities.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TimingUtilities.h
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -753,10 +753,10 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDScene.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -860,14 +860,14 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneRenderer.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.h
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -971,12 +971,12 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneSerializer.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.h
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -1081,16 +1081,16 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDSceneXMLParser.cpp.o
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
  ../include/rapidxml/rapidxml.hpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SceneStepper.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SceneStepper.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.h
 FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -1194,15 +1194,15 @@ FOSSSim/CMakeFiles/FOSSSim.dir/TwoDimensionalDisplayController.cpp.o
  ../include/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  ../include/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Macros.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Macros.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.h
 FOSSSim/CMakeFiles/FOSSSim.dir/YImage.cpp.o
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/YImage.cpp
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/YImage.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/YImage.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/YImage.h
 FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o
  ../include/eigen/Eigen/Core
  ../include/eigen/Eigen/Eigen2Support
@@ -1329,22 +1329,22 @@ FOSSSim/CMakeFiles/FOSSSim.dir/main.cpp.o
  ../include/tclap/VersionVisitor.h
  ../include/tclap/Visitor.h
  ../include/tclap/XorHandler.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Clogs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Force.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/Macros.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathDefs.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/MathUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SceneStepper.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TT.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TimingUtilities.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/YImage.h
- /Users/rakesh/Google Drive/Academics/Computer Animation/Assignment - 1/ry2294/FOSSSim/main.cpp
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Clogs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/ExplicitEuler.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Force.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/Macros.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathDefs.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/MathUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/RenderingUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SceneStepper.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/SimpleGravityForce.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/StringUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TT.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TimingUtilities.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDScene.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneRenderer.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneSerializer.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDSceneXMLParser.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/TwoDimensionalDisplayController.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/YImage.h
+ /Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/FOSSSim/main.cpp
