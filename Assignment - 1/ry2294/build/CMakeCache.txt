@@ -205,6 +205,15 @@ OPENGL_gl_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/
 //AGL lib for OSX
 OPENGL_glu_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework
 
+//Path to a library.
+PNG_LIBRARY_DEBUG:FILEPATH=PNG_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+PNG_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libpng.dylib
+
+//Path to a file.
+PNG_PNG_INCLUDE_DIR:PATH=/usr/local/include
+
 //Path to a file.
 RAPIDXML_INCLUDE_DIR:PATH=/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/include/rapidxml
 
@@ -213,6 +222,15 @@ TCLAP_INCLUDE_PATH:PATH=/Users/rakesh/Google Drive/Academics/Computer Animation/
 
 //Builds in support for exporting to png (UNSUPPORTED)
 USE_PNG:BOOL=OFF
+
+//Path to a file.
+ZLIB_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include
+
+//Path to a library.
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/libz.dylib
 
 
 ########################
@@ -356,10 +374,14 @@ FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[/Users/rakesh/Google Drive/Academi
 FIND_PACKAGE_MESSAGE_DETAILS_GLUT:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/GLUT.framework][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/GLUT.framework/Headers][v()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework][v()]
+//Details about finding PNG
+FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[/usr/local/lib/libpng.dylib][/usr/local/include][v1.6.21()]
 //Details about finding RapidXML
 FIND_PACKAGE_MESSAGE_DETAILS_RapidXML:INTERNAL=[/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/include/rapidxml][v()]
 //Details about finding TCLAP
 FIND_PACKAGE_MESSAGE_DETAILS_TCLAP:INTERNAL=[/Users/rakesh/Google Drive/Academics/Computer Animation/CA/Assignment - 1/ry2294/include][v()]
+//Details about finding ZLIB
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/libz.dylib][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include][v1.2.5()]
 //ADVANCED property for variable: GLUT_INCLUDE_DIR
 GLUT_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GLUT_glut_LIBRARY
@@ -370,8 +392,22 @@ OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_LIBRARY_DEBUG
+PNG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_LIBRARY_RELEASE
+PNG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_PNG_INCLUDE_DIR
+PNG_PNG_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: RAPIDXML_INCLUDE_DIR
 RAPIDXML_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: TCLAP_INCLUDE_PATH
 TCLAP_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//MODIFIED property for variable: USE_PNG
+USE_PNG-MODIFIED:INTERNAL=ON
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
+ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
+ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 

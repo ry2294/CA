@@ -29,26 +29,12 @@ bool ExplicitEuler::stepScene( TwoDScene& scene, scalar dt )
     for (int index = 0; index < num_particles * 2; index++) {
         scalar x_x = x_s[index], v_x = v_s[index], m_x = m_s[index];
 
-        if (!scene.isFixed(index / 2)) {
-            std::cout << "Before x_x: " << x_x 
-                  << " v_x: " << v_x 
-                  << " m_x: " << m_x << std::endl;
-            std::cout << "Kinetic: " << scene.computeKineticEnergy() << std::endl;
+        // Calculating next position of the particle.
+        x_s[index] += dt * v_s[index];
 
-            // Calculating next position of the particle.
-            x_s[index] += dt * v_s[index];
-
-            // Calculating next velocity of the particle.
+        // Calculating next velocity of the particle.
+        if (!scene.isFixed(index / 2)) { 
             v_s[index] += f[index] / m_s[index] * dt;
-
-            std::cout << "After x_x: " << x_x 
-                      << " v_x: " << v_x 
-                      << " m_x: " << m_x << std::endl;
-
-            std::cout << "GradU: " << f << std::endl;          
-            std::cout << "Kinetic: " << scene.computeKineticEnergy() << std::endl;
-            std::cout << "Potential: " << scene.computePotentialEnergy() << std::endl;
-            std::cout << "Total: " << scene.computeTotalEnergy() << std::endl;
         }
     }
     
