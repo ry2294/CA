@@ -17,7 +17,11 @@ void SimpleGravityForce::addEnergyToTotal( const VectorXs& x, const VectorXs& v,
     assert( x.size() == m.size() );
     assert( x.size()%2 == 0 );
     
-    // Your code goes here!
+    for (int i = 0; i < x.size(); i ++) {
+        scalar g_x = m_gravity[0], g_y = m_gravity[1];
+        scalar g = (i % 2 == 0) ? g_x : g_y;
+        E += m[i] * x[i] * -1 * g;
+    }
 }
 
 void SimpleGravityForce::addGradEToTotal( const VectorXs& x, const VectorXs& v, const VectorXs& m, VectorXs& gradE )
@@ -27,7 +31,12 @@ void SimpleGravityForce::addGradEToTotal( const VectorXs& x, const VectorXs& v, 
     assert( x.size() == gradE.size() );
     assert( x.size()%2 == 0 );
     
-    // Your code goes here!
+    scalar g_x = m_gravity[0], g_y = m_gravity[1];
+
+    for(int i = 0; i < x.size(); i++) {
+        scalar g = (i % 2 == 0) ? g_x : g_y;
+        gradE[i] += m[i] * g;
+    }
 }
 
 void SimpleGravityForce::addHessXToTotal( const VectorXs& x, const VectorXs& v, const VectorXs& m, MatrixXs& hessE )
